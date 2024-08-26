@@ -13,5 +13,5 @@ variable "region" {
 variable "bucket_name" {
   description = "The name of the bucket to be created"
   type        = string
-  default     = "mew-prompt-tutor-terraform-v1"
+  default     = "mew-prompt-tutor-terraform-v2"
 }
