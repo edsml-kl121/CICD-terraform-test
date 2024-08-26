@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "mew_bucket" {
-  name     = "mew-prompt-tutor-terraform-v1"
+  name     = "var.bucket_name"
   location = "US"
 }
 
